@@ -5,6 +5,7 @@ import { isPangram } from "./detect-pangram";
 import { comp } from "./are-they-same"
 import { numberOfPeople } from "./bus-stop"
 import { removeNb } from "./is-my-friend-cheating";
+import { findOdd } from "./find-the-odd-int";
 
 console.log(maskify("12345"))
 console.log(narcissistic(153))
@@ -20,3 +21,5 @@ console.log(isPangram("The quick brown fox jumps over the lazy dog."))
 console.log(isPangram("This is not a pangram."))
 
 console.log(removeNb(26))
+
+console.log(findOdd([20, 1, -1, 2, -2, 3, 3, 5, 5, 1, 2, 4, 20, 4, -1, -2, 5]))
