@@ -4,6 +4,7 @@ import { descendingOrder } from "./descending-order"
 import { isPangram } from "./detect-pangram";
 import { comp } from "./are-they-same"
 import { numberOfPeople } from "./bus-stop"
+import { removeNb } from "./is-my-friend-cheating";
 
 console.log(maskify("12345"))
 console.log(narcissistic(153))
@@ -17,3 +18,5 @@ console.log(numberOfPeople([[10, 0], [3, 5], [5, 8]]))
 
 console.log(isPangram("The quick brown fox jumps over the lazy dog."))
 console.log(isPangram("This is not a pangram."))
+
+console.log(removeNb(26))
