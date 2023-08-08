@@ -11,6 +11,7 @@ import { nbMonths } from "./buying-a-car";
 import { findUniq } from "./unique-string";
 import { wave } from "./mexican-wave";
 import { makeLooper } from "./lazy-repeater";
+import { perimeter } from "./perimeter-of-squares";
 
 console.log(maskify("12345"))
 console.log(narcissistic(153))
@@ -38,3 +39,5 @@ console.log(abc())
 console.log(abc())
 console.log(abc())
 console.log(abc())
+
+console.log(perimeter(5))
