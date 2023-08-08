@@ -8,6 +8,7 @@ import { removeNb } from "./is-my-friend-cheating";
 import { findOdd } from "./find-the-odd-int";
 import { findOutlier } from "./parity-outlier"
 import { nbMonths } from "./buying-a-car";
+import { findUniq } from "./unique-string";
 
 console.log(maskify("12345"))
 console.log(narcissistic(153))
@@ -26,3 +27,4 @@ console.log(removeNb(26))
 console.log(findOdd([20, 1, -1, 2, -2, 3, 3, 5, 5, 1, 2, 4, 20, 4, -1, -2, 5]))
 console.log(findOutlier([160, 3, 1719, 19, 11, 13, -21]))
 console.log(nbMonths(2000, 8000, 1000, 1.5))
+console.log(findUniq(['Aa', 'aaa', 'aaaaa', 'BbBb', 'Aaaa', 'AaAaAa', 'a']))
