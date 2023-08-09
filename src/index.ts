@@ -12,6 +12,7 @@ import { findUniq } from "./unique-string";
 import { wave } from "./mexican-wave";
 import { makeLooper } from "./lazy-repeater";
 import { perimeter } from "./perimeter-of-squares";
+import { closest } from "./closest-and-smallest";
 
 console.log(maskify("12345"))
 console.log(narcissistic(153))
@@ -41,3 +42,4 @@ console.log(abc())
 console.log(abc())
 
 console.log(perimeter(5))
+console.log(closest("103 123 4444 99 2000"))
