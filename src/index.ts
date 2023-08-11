@@ -15,6 +15,7 @@ import { perimeter } from "./perimeter-of-squares";
 import { closest } from "./closest-and-smallest";
 import { sumPairs } from "./sum-of-pairs";
 import { playPass } from "./playing-with-passphrases";
+import { Vector } from "./vector-class";
 
 console.log(`MASKIFY: ${maskify("12345")}`)
 console.log(`NARCISSISTIC: ${narcissistic(153)}`)
@@ -47,3 +48,14 @@ console.log(`PERIMETER OF SQUARES: ${perimeter(5)}`)
 console.log(`CLOSEST AND SMALLEST: ${closest("103 123 4444 99 2000")}`)
 console.log(`PLAYING WITH PASSPHRASES: ${playPass("BORN IN 2015!", 1)}`)
 console.log(`SUM PAIRS: ${sumPairs([11, 3, 7, 5], 10)}`)
+
+let vectA = new Vector([1, 2, 3])
+let vectB = new Vector([3, 4, 5])
+let vectC = new Vector([5, 6, 7, 8])
+
+console.log(vectA.add(vectB))
+console.log(vectA.subtract(vectB))
+console.log(vectA.dot(vectB))
+console.log(vectA.norm())
+console.log(vectA.toString())
+console.log(vectA.add(vectC))
