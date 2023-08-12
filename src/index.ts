@@ -16,6 +16,7 @@ import { closest } from "./closest-and-smallest";
 import { sumPairs } from "./sum-of-pairs";
 import { playPass } from "./playing-with-passphrases";
 import { Vector } from "./vector-class";
+import { gap } from "./gap-in-primes";
 
 console.log(`MASKIFY: ${maskify("12345")}`)
 console.log(`NARCISSISTIC: ${narcissistic(153)}`)
@@ -60,3 +61,5 @@ console.log(vectA.dot(vectB))
 console.log(vectA.norm())
 console.log(vectA.toString())
 console.log(vectA.add(vectC))
+
+console.log(`GAP IN PRIMES: ${gap(2, 3, 50)}`)
