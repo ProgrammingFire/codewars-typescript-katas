@@ -53,6 +53,7 @@ let vectA = new Vector([1, 2, 3])
 let vectB = new Vector([3, 4, 5])
 let vectC = new Vector([5, 6, 7, 8])
 
+console.log("VECTOR CLASS: ")
 console.log(vectA.add(vectB))
 console.log(vectA.subtract(vectB))
 console.log(vectA.dot(vectB))
